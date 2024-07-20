@@ -78,9 +78,9 @@ function App() {
           <h1 style={{marginTop:'100px', color:'white'}}>BMI Calculator</h1>
           <h5 style={{color:'white'}}>Calculate Your bodymassindex</h5>
           <div className='d-flex mt-4'>
-            <Button variant="outlined" className='border-white  text-white' >Mail</Button>
+            <Button variant="outlined" className='border-white  text-white' >Male</Button>
             
-            <Button variant="outlined"  className='  border-white  text-white ms-2' >Femail</Button>
+            <Button variant="outlined"  className='  border-white  text-white ms-2' >Female</Button>
 
             
             </div>
@@ -183,7 +183,7 @@ function App() {
        
         <img src="https://keffecttraining.com/static/hero-workout-img-7bce79d31f9410b9fd5169a976689d51.png" alt="" width="60%"/>
              
-             <div className='mt-3 ' style={{marginLeft:'95px' }}>
+             <div className='mt-3 ' style={{marginLeft:'100px' }}>
              <h1 style={{color:'white' , fontSize:'300% ' , fontWeight:'700'}}>Your BMI is = {interest} </h1>   
              </div>  
         </div> 
